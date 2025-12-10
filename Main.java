@@ -6,15 +6,15 @@ public class Main {
         System.out.println("--- Adding elements ---");
         
         list.add("Java");
-        list.printAll(); // Проверяем порядок
+        list.printAll();
         
         list.add("C");
-        list.printAll(); // C короче Java, должно встать перед ней
+        list.printAll(); 
         
         list.add("Python");
         list.printAll(); 
         
-        list.add("JavaScript"); // Тут массив должен расшириться
+        list.add("JavaScript");
         list.printAll();
         
         list.add("Go");
